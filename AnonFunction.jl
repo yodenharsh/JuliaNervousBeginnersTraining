@@ -8,7 +8,7 @@ y = [x for x in "abc"] #char array ['a','b','c']
 println(join(map(x->x^3 ,y), " ")) #(   ," ") is delimiter for join
 println(join(map(x->x^2 + 2x + 1, -5:3)))
 #=filter, on the other hand, only retains the values based on the given condition or test=# 
-y = [x for x in "nigga you fuck yourself"]
+y = [x for x in "hella you done yourself"]
 println(y)
 println(filter(x->x < 'f', y))
 filter!(x->x < 'f', y) #also modifies the value of y
